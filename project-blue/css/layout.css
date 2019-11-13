@@ -295,3 +295,91 @@ body {
     color: #f60;
 }
 
+/* 文章 - start */
+.article-box{
+    width: 1200px;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+
+.article-box .article-top{
+    width: 100%;
+    height: 56px;
+    background-color: #2751ab;
+}
+
+.article-box .article-top .title{
+    float: left;
+    margin-left: 26px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 56px;
+    color: #fff;
+}
+
+.article-box .article-top .return {
+    float: right;
+    margin-right: 26px;
+    font-size: 14px;
+    line-height: 56px;
+    color: #fff;
+}
+
+.article-box .article-top .return a{
+    color: #fff;
+}
+
+.article-box .article-top .return a:hover{
+    color: #f60;
+}
+
+
+
+.article-box .article-main{
+    width: 1198px;
+    padding-top: 50px;
+    border: 1px solid #cccccc;
+    border-top: none;
+}
+
+.article-box .article-main .info-box{
+    margin: 0 40px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.article-box .article-main .info-box .title{
+    padding: 14px 40px;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 34px;
+    text-align: center;
+    color: #000;
+}
+
+.article-box .article-main .info-box .info{
+    padding: 14px 0;
+    font-size: 0;
+    text-align: center;
+}
+
+.article-box .article-main .info-box .info .item{
+    display: inline-block;
+    margin: 0 46px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+}
+
+.article-box .article-main .content{
+    min-height: 400px;
+    padding: 50px 90px;
+}
+
+.article-box .article-main .content p{
+    font-size: 16px;
+    line-height: 2em;
+    color: #333;
+}
+
+
+/* 文章 - end */

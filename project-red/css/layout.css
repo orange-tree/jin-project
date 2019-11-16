@@ -66,17 +66,22 @@ body {
     line-height: 46px;
     padding-right: 120px;
     border-bottom: 1px dashed #d3d3d3;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
 }
 
 .news-list .list li a{
     position: relative;
-    display: block;
+    float: left;
+    max-width: 100%;
     padding-left: 12px;
     font-size: 14px;
     color: #666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
 }
 
 .news-list .list li a::before{
@@ -247,17 +252,22 @@ body {
     height: 38px;
     line-height: 38px;
     padding-right: 120px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
 }
 
 .news-list-box .items li a{
     position: relative;
-    display: block;
+    float: left;
+    max-width: 100%;
     padding-left: 12px;
     font-size: 14px;
     color: #666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
 }
 
 .news-list-box .items li a::before{
@@ -283,15 +293,5 @@ body {
     font-size: 14px;
     color: #999;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* 新闻列表 - end */

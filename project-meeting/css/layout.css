@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+body {
+    min-width: 1200px;
+    background-color: #205acf;
+    background-image: url(../images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.center {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.m-t80{
+    margin-top: 80px;
+}
+
+.m-t-140{
+    margin-top: -140px;
+}
+
+.header{
+    width: 100%;
+    height: 660px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.header .logo{
+    padding-top: 66px;
+    padding-left: 44px;
+}
+
+.header .logo img{
+    display: block;
+}
+
+.footer{
+    width: 100%;
+    padding: 30px 0 120px;
+}
+
+.footer p{
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+}
+
+/* 文章 - start */
+.article-box{
+    width: 1200px;
+    background-color: #fff;
+}
+
+.article-box .article-top{
+    width: 100%;
+    height: 56px;
+    background-color: #ff3333;
+}
+
+.article-box .article-top .title{
+    float: left;
+    margin-left: 26px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 56px;
+    color: #fff;
+}
+
+.article-box .article-top .return {
+    float: right;
+    margin-right: 26px;
+    font-size: 14px;
+    line-height: 56px;
+    color: #fff;
+}
+
+.article-box .article-top .return a{
+    color: #fff;
+}
+
+.article-box .article-top .return a:hover{
+    color: #f60;
+}
+
+/* 文章 - end */
+
+/* 新闻列表 - start */
+.news-list-box{
+    width: 1078px;
+    padding: 40px 60px 100px;
+    border: 1px solid #fff;
+    border-top: none;
+}
+
+.news-list-box .list li{
+    position: relative;
+    padding-right: 160px;
+    font-size: 14px;
+    line-height: 36px;
+    border-bottom: 1px dashed #ccc;
+    overflow: hidden;
+}
+
+.news-list-box .list li a{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+.news-list-box .list li a:hover{
+    color: #f60;
+}
+
+.news-list-box .list li .time{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* 新闻列表 - end */
